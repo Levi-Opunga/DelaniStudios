@@ -51,3 +51,11 @@ div.about {
 .paddingservices {
   padding-top: 105px;
 }
+
+div.row {
+}
+
+div.col-md-4 {
+  padding-left: 220px;
+  padding-top: 40px;
+}
