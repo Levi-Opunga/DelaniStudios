@@ -27,23 +27,40 @@ $(document).ready(function() {
             "<p>This iterative process allows for changes as business requirements evolve.</p>"
         );
     });
-    $("div.design h4").hover(function() {
+    /*$("div.design h4").hover(function() {
+        $("img#design").show();
+        $("div.design p").hide();
+});*/
+    $("h3").hover(function() {
         $("img#design").show();
         $("div.design p").hide();
     });
-    $("div.development h4").hover(function() {
+
+    $("h3").hover(function() {
         $("img#development").show();
         $("div.development p").hide();
     });
-    $("div.product h4").hover(function() {
+    $("h3").hover(function() {
         $("img#product").show();
         $("div.product p").hide();
     });
-    $(".one,.two,.three,.four,.five,.six,.seven,.eight")
-        .on("mouseenter", function() {
-            $(".display").removeClass();
-        })
-        .on("mouseleave", function() {
-            $("h2").addClass("display");
-        });
+    let positions = [
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eight",
+    ];
+    positions.forEach(function(position) {
+        $("." + position)
+            .on("mouseenter", function() {
+                $("#" + position + ".display").removeClass();
+            })
+            .on("mouseleave", function() {
+                $("#" + position).addClass("display");
+            });
+    });
 });
