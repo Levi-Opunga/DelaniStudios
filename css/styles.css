@@ -41,7 +41,7 @@ h1.first {
     margin-top: 16px;
     padding: 10px 5px 52px;
     border: 3px solid;
-    opacity: 0.5;
+    opacity: 1;
 }
 
 #three {
@@ -49,9 +49,9 @@ h1.first {
     font-weight: bold;
     text-align: start;
     margin-top: 16px;
-    padding: 10px 5px 52px;
+    padding: 10px 5px 100px;
     border: 3px solid;
-    opacity: 0.5;
+    opacity: 0.9;
 }
 
 #four {
@@ -59,9 +59,9 @@ h1.first {
     font-weight: bold;
     text-align: start;
     margin-top: 16px;
-    padding: 10px 5px 52px;
+    padding: 10px 5px 100px;
     border: 3px solid;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 #five {
@@ -69,9 +69,9 @@ h1.first {
     font-weight: bold;
     text-align: start;
     margin-top: 16px;
-    padding: 10px 5px 52px;
+    padding: 10px 5px 100px;
     border: 3px solid;
-    opacity: 0.5;
+    opacity: 1;
 }
 
 #six {
@@ -79,9 +79,9 @@ h1.first {
     font-weight: bold;
     text-align: start;
     margin-top: 16px;
-    padding: 10px 5px 52px;
+    padding: 10px 5px 103px;
     border: 3px solid;
-    opacity: 0.5;
+    opacity: 0.9;
 }
 
 #seven {
@@ -89,7 +89,7 @@ h1.first {
     font-weight: bold;
     text-align: start;
     margin-top: 16px;
-    padding: 10px 5px 52px;
+    padding: 10px 5px 100px;
     border: 3px solid;
     opacity: 1;
 }
@@ -240,7 +240,7 @@ h6 {
 
 .two {
     background-image: url("../images/portfolio/work3.jpg");
-    color: white;
+    color: rgb(23, 79, 131);
     background-repeat: no-repeat;
     height: 250px;
     width: 350px;
@@ -256,38 +256,38 @@ h6 {
 
 .four {
     background-image: url("../images/portfolio/work1.jpg");
-    color: white;
+    color: rgb(81, 202, 135);
     background-repeat: no-repeat;
     height: 250px;
     background-size: cover;
 }
 
-.five {
+.eight {
     background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url("../images/portfolio/work8.jpg");
     color: white;
     background-repeat: no-repeat;
     height: 250px;
 }
 
-.six {
+.seven {
     background-image: url("../images/portfolio/work7.jpg");
-    color: white;
+    color: rgb(214, 77, 77);
     background-repeat: no-repeat;
     height: 250px;
     width: 350px;
     background-size: cover;
 }
 
-.seven {
+.six {
     background-image: url("../images/portfolio/work6.jpg");
-    color: white;
+    color: rgb(71, 199, 99);
     height: 250px;
     background-repeat: no-repeat;
 }
 
-.eight {
+.five {
     background-image: url("../images/portfolio/work5.jpg");
-    color: white;
+    color: gray;
     background-repeat: no-repeat;
     height: 250px;
     background-size: cover;
