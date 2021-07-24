@@ -20,6 +20,15 @@ h1.first {
   padding: 10px;
 }
 
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: start;
+  margin-top: 16px;
+  padding: 10px 5px 100px;
+  border: 3px solid;
+}
+
 h3 {
   font-family: "Noto Sans JP", sans-serif;
 }
@@ -118,4 +127,71 @@ h6.studio {
 
 h6 {
   font-weight: 900;
+}
+
+.mycol {
+  height: 300px;
+}
+
+.one {
+  background-image: url(../images/portfolio/work4.jpg);
+  color: white;
+  background-repeat: no-repeat;
+  height: 250px;
+}
+
+.two {
+  background-image: url(../images/portfolio/work3.jpg);
+  color: white;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 350px;
+  background-size: cover;
+}
+
+.three {
+  background-image: url(../images/portfolio/work2.jpg);
+  color: white;
+  height: 250px;
+  background-repeat: no-repeat;
+}
+
+.four {
+  background-image: url(../images/portfolio/work1.jpg);
+  color: white;
+  background-repeat: no-repeat;
+  height: 250px;
+  background-size: cover;
+}
+
+.five {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)),
+    url(../images/portfolio/work8.jpg);
+  color: white;
+  background-repeat: no-repeat;
+  height: 250px;
+}
+
+.six {
+  background-image: url(../images/portfolio/work7.jpg);
+  color: white;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 350px;
+  background-size: cover;
+}
+
+.seven {
+  background-image: url(../images/portfolio/work6.jpg);
+  color: white;
+  height: 250px;
+  background-repeat: no-repeat;
+}
+
+.eight {
+  background-image: url(../images/portfolio/work5.jpg);
+  color: white;
+  background-repeat: no-repeat;
+  height: 250px;
+  background-size: cover;
 }
