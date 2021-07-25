@@ -188,6 +188,16 @@ input[type="text"] {
     opacity: 1;
 }
 
+#submit {
+    color: azure;
+}
+
+.span {
+    display: block;
+}
+
+input[type="submit"] {}
+
 input[type="text"]:focus {
     border: 1px solid white;
 }
@@ -263,15 +273,16 @@ h6 {
 }
 
 .eight {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url("../images/portfolio/work8.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.808)), url("../images/portfolio/work8.jpg");
     color: white;
     background-repeat: no-repeat;
     height: 250px;
+    background-size: cover;
 }
 
 .seven {
-    background-image: url("../images/portfolio/work7.jpg");
-    color: rgb(214, 77, 77);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.315)), url("../images/portfolio/work7.jpg");
+    color: rgb(190, 131, 131);
     background-repeat: no-repeat;
     height: 250px;
     width: 350px;
@@ -283,6 +294,7 @@ h6 {
     color: rgb(71, 199, 99);
     height: 250px;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .five {

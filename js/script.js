@@ -28,9 +28,9 @@ $(document).ready(function() {
         );
     });
     /*$("div.design h4").hover(function() {
-        $("img#design").show();
-        $("div.design p").hide();
-});*/
+                                                            $("img#design").show();
+                                                            $("div.design p").hide();
+                                                    });*/
     $("h3").hover(function() {
         $("img#design").show();
         $("div.design p").hide();
@@ -62,5 +62,9 @@ $(document).ready(function() {
             .on("mouseleave", function() {
                 $("#" + position).addClass("display");
             });
+    });
+    $("#submit").click(function() {
+        $("form").submit();
+        alert("Thank you for contacting us");
     });
 });
