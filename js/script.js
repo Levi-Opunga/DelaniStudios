@@ -28,9 +28,9 @@ $(document).ready(function() {
         );
     });
     /*$("div.design h4").hover(function() {
-                                                                              $("img#design").show();
-                                                                              $("div.design p").hide();
-                                                                      });*/
+                                                                                  $("img#design").show();
+                                                                                  $("div.design p").hide();
+                                                                          });*/
     $("h3,h4").hover(function() {
         $("img#design").show();
         $("div.design p").hide();
@@ -66,13 +66,13 @@ $(document).ready(function() {
     $("#submit").click(function() {
         $("form").submit();
         if (
-            $("#name").val() > "" &&
-            $("#email")
+            $("#mce-FNAME").val() > "" &&
+            $("#mce-EMAIL")
             .val()
             .match(
                 "[A-Za-z0-9._%+-]{2,}@[a-zA-Z]{1,}([.]{1}[a-zA-Z]{2,}|[.]{1}[a-zA-Z]{2,}[.]{1}[a-zA-Z]{2,})"
             ) &&
-            $("textarea").val() > ""
+            $("mce-TEXT").val() > ""
         )
             alert("Thank you for contacting us");
     });

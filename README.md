@@ -45,4 +45,4 @@ No known bugs contact me if any is found.
 
 > > [Link](https://github.com/Levi-Opunga/DelaniStudios/blob/master/License)
 
-Copyright (©) 2021 Levi Tech Inc.
+(©) 2021 LeviTech, Inc.
