@@ -196,7 +196,9 @@ input[type="text"] {
     display: block;
 }
 
-input[type="submit"] {}
+input[type="submit"] {
+    border: 1px solid white;
+}
 
 input[type="text"]:focus {
     border: 1px solid white;
@@ -204,7 +206,7 @@ input[type="text"]:focus {
 
 textarea {
     width: 70%;
-    height: 340px;
+    height: 235px;
     padding: 12px 20px;
     box-sizing: border-box;
     border: 2px solid white;
@@ -225,20 +227,16 @@ input[type="text"] {
 }
 
 footer {
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 20px;
 }
 
 h6.studio {
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 h6 {
     font-weight: 900;
-}
-
-.mycol {
-    height: 300px;
 }
 
 .one {

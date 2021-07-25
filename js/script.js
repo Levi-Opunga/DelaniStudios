@@ -28,19 +28,19 @@ $(document).ready(function() {
         );
     });
     /*$("div.design h4").hover(function() {
-                                                            $("img#design").show();
-                                                            $("div.design p").hide();
-                                                    });*/
-    $("h3").hover(function() {
+                                                                              $("img#design").show();
+                                                                              $("div.design p").hide();
+                                                                      });*/
+    $("h3,h4").hover(function() {
         $("img#design").show();
         $("div.design p").hide();
     });
 
-    $("h3").hover(function() {
+    $("h3,h4").hover(function() {
         $("img#development").show();
         $("div.development p").hide();
     });
-    $("h3").hover(function() {
+    $("h3,h4").hover(function() {
         $("img#product").show();
         $("div.product p").hide();
     });
@@ -65,6 +65,15 @@ $(document).ready(function() {
     });
     $("#submit").click(function() {
         $("form").submit();
-        alert("Thank you for contacting us");
+        if (
+            $("#name").val() > "" &&
+            $("#email")
+            .val()
+            .match(
+                "[A-Za-z0-9._%+-]{2,}@[a-zA-Z]{1,}([.]{1}[a-zA-Z]{2,}|[.]{1}[a-zA-Z]{2,}[.]{1}[a-zA-Z]{2,})"
+            ) &&
+            $("textarea").val() > ""
+        )
+            alert("Thank you for contacting us");
     });
 });
