@@ -27,10 +27,7 @@ $(document).ready(function() {
             "<p>This iterative process allows for changes as business requirements evolve.</p>"
         );
     });
-    /*$("div.design h4").hover(function() {
-                                                                                      $("img#design").show();
-                                                                                      $("div.design p").hide();
-                                                                              });*/
+
     $("h3,h4").hover(function() {
         $("img#design").show();
         $("div.design p").hide();
